@@ -5,7 +5,7 @@ const Table = ({ sat }) => {
         <tr>
           <th>Name</th>
           <th>Type of Satellite</th>
-          <th>LaunchDate</th>
+          <th>Launch Date</th>
           <th>Status</th>
         </tr>
       </thead>
