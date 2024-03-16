@@ -10,12 +10,16 @@ const Table = ({ sat }) => {
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
+        {sat.map((data, id) => {
+          return (
+            <tr key={id}>
+              <td>{data.name}</td>
+              <td>{data.type}</td>
+              <td>{data.launchDate}</td>
+              <td>{data.operational === true ? "active" : "inactive"}</td>
+            </tr>
+          );
+        })}
       </tbody>
     </table>
   );
