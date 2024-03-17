@@ -14,5 +14,4 @@ const Buttons = ({ filterByType, setSat, displaySats }) => {
     </div>
   );
 };
-
 export default Buttons;

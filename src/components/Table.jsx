@@ -24,5 +24,4 @@ const Table = ({ sat }) => {
     </table>
   );
 };
-
 export default Table;
