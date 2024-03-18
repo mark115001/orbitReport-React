@@ -1,3 +1,5 @@
+import '../components/styling.css'
+
 function Banner() {
     return(
 
@@ -9,5 +11,4 @@ function Banner() {
     )
 
 }
-
 export default Banner
